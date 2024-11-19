@@ -38,6 +38,11 @@ def main():
         st.image("https://via.placeholder.com/150", caption="Company Logo")
         
         st.markdown("---")
+
+        
+        options = ["estate", "car"]
+        st.pills("Choices", options, selection_mode="single")
+        
         
         # Main choice
         st.subheader("Select Analysis Type")
