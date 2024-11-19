@@ -42,7 +42,7 @@ def main():
         # options = ["estate", "car"]
         # st.pills("Choices", options, selection_mode="single")
 
-        estate, car = st.tabs(["Estate", "Car"])
+        estate, car = st.tabs(["Estate 🏠", "Car 🚙"])
         
         prediction, analysis = st.tabs(["Prediction", "Analysis"])
 
