@@ -41,7 +41,7 @@ def main():
 
         pill_style = """
         <style>
-            [data-testid="stBaseButton-pills"] {
+            [data-testid="stBaseButton-pills"], [data-testid="stBaseButton-pillsActive"] {
                 padding: 30px !important;
             }
         </style>
