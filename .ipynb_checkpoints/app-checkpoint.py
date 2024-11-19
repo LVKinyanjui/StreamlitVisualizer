@@ -38,6 +38,17 @@ def main():
         st.image("https://via.placeholder.com/150", caption="Company Logo")
         st.markdown("---")
 
+        centering_style = """
+        <style>
+            [data-testid="stSidebarUserContent"] > div {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+        </style>
+        """
+
+        st.markdown(centering_style, unsafe_allow_html=True)
 
         pill_style = """
         <style>
