@@ -38,28 +38,10 @@ def main():
         st.image("https://via.placeholder.com/150", caption="Company Logo")
         st.markdown("---")
 
-        # # CSS to tweak Streamlit button size while keeping the default style
-        # button_style = """
-        # <style>
-        #     div.stButton > button {
-        #         font-size: 24px !important; /* Adjust font size */
-        #         padding: 30px !important; /* Adjust padding for larger/smaller buttons */
-        #     }
-        # </style>
-        # """
-        
-        # # Render the CSS
-        # st.markdown(button_style, unsafe_allow_html=True)
-        
-        # col1, col2 = st.columns(2)
-        # with col1:
-        #     st.button("ESTATE 🏠")
-        # with col2:
-        #     st.button("CAR🚙")
 
         pill_style = """
         <style>
-            button {
+            [data-testid="stBaseButton-pills"] {
                 padding: 30px !important;
             }
         </style>
